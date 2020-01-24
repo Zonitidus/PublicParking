@@ -22,9 +22,12 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
+   <Label text="Vehículo" GridPane.halignment="CENTER" />   
       <ChoiceBox fx:id="tipoVehiculoChoiceBox" prefWidth="150.0" GridPane.rowIndex="1" />
+        <Label text="Hora de Inicio" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
       <TextField fx:id="horaInicioTextField" editable="false" focusTraversable="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-      <TextField fx:id="horaFinalTextField" editable="false" focusTraversable="false" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+        <Label text="Hora Final" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+      <TextField fx:id="horaFinalTextField" editable="false" focusTraversable="false" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" /> 
       <Button fx:id="calcularButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#calcularButtonPresionado" text="Calcular" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
          <font>
             <Font name="System Bold" size="13.0" />
